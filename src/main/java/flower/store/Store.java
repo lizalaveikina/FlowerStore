@@ -16,4 +16,11 @@ public class Store {
         }
         return foundItems;
     }
+    public void addItem(Item item) {
+        this.items.add(item);
+    }
+
+    public int getNumberOfItems() {
+        return  this.items.size();
+    }
 }
